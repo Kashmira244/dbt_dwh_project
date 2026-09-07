@@ -6,5 +6,5 @@ select * from {{ source('sales', 'country') }}
 
 )
 
-select COUNTRY
+select *
 from source_data
